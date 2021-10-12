@@ -7,6 +7,7 @@ import SuggestionRow from './SuggestionRow';
 
 const DestinationSearchScreen = () => {
   const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <GooglePlacesAutocomplete
